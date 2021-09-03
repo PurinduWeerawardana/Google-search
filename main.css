@@ -96,6 +96,9 @@
     border: solid 1px rgba(172, 161, 161, 0.336);
 }
 @media (max-width:640px) {
+    #topnav{
+        right: 5px;
+    }
     #container, #search{
         width: 360px;
     }
