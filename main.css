@@ -97,15 +97,15 @@
 }
 @media (max-width:640px) {
     #container, #search{
-        width: 400px;
+        width: 360px;
     }
     #search-bar{
-        width: 394px;
+        width: 350px;
     }
     #google-logo{
-        margin-left: 64px;
+        margin-left: 50px;
     }
     #search-btn{
-        margin-left: 55px;
+        margin-left: 40px;
     }
 }
