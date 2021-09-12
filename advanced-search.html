@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advanced-search.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <form action="https://google.com/search">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Find pages with...</td>
+                        <td></td>
+                        <td>To do this in the search box.</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-1">all these words:</td>
+                        <td class="col-2"><input id="search-bar" type="text" name="as_q"></td>
+                        <td class="col-3">Type the important words: tri-colour rat terrier</td>
+                    </tr>
+                    <tr>
+                        <td class="col-1">this exact word or phrase</td>
+                        <td class="col-2"><input id="search-bar" type="text" name="as_epq"></td>
+                        <td class="col-3">Put exact words in quotes: "rat terrier"</td>
+                    </tr>
+                    <tr>
+                        <td class="col-1">any of these words:</td>
+                        <td class="col-2"><input id="search-bar" type="text" name="as_oq"></td>
+                        <td class="col-3">Type OR between all the words you want: miniature OR standard</td>
+                    </tr>
+                    <tr>
+                        <td class="col-1">none of these words</td>
+                        <td class="col-2"><input id="search-bar" type="text" name="as_eq"></td>
+                        <td class="col-3">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+                    </tr>
+                    <tr>
+                        <td class="col-1"></td>
+                        <td class="col-2"><input id="search-btn" type="submit" value="Advanced Search"></td>
+                        <td class="col-3"></td>
+                    </tr>
+                </tbody>
+            </table>
+    </form>
+    </div>
+</body>
+</html>

@@ -14,14 +14,14 @@
     position:absolute;
     right: 10px;
 }
-#nav-links{
+.nav-links{
     font-size: 13px;
     font-family: Arial, sans-serif;
     text-decoration-line: none;
     color: black;
     margin: 10px;
 }
-#nav-links:hover{
+.nav-links:hover{
     text-decoration: underline;
 }
 #menu{
